@@ -10,9 +10,9 @@
 <div class="row" style="margin-top: 2rem;">
   <div class="container">
     <div class="portlet portlet-dark">
-      <div class="portlet-body">
-        <div class="card-container col-xs-3 col-md-2" ng-repeat="card in member.cards">
-          <div class="card selectable" ng-class="{active: card.active, confirmed: card.confirmed}" ng-click="member.selectCard(card)">
+      <div class="portlet-body" style="padding: 0.5rem;">
+        <div class="card-container col-xs-4 col-md-3" style="padding: 0 4px;" ng-repeat="card in member.cards">
+          <div class="card selectable" style="width: auto; height: auto;" ng-class="{active: card.active, confirmed: card.confirmed}" ng-click="member.selectCard(card)">
             <div class="inner">
               <span class="card-label" ng-bind-html="card.value"></span>
             </div>

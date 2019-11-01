@@ -19,13 +19,13 @@ include "config.php";
             <div class="form-group">
               <label style="color: white">Cards: <a target="_blank" href="<?= $src ?>/src/sample-config.php#L17">?</a></label>
               <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                  <span ng-bind-html="create.selectedSet.value"></span>
+                <button class="btn btn-default dropdown-toggle" style="color: black;" type="button" data-toggle="dropdown">
+                  <span style="color: black;" ng-bind-html="create.selectedSet.value"></span>
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
                   <li ng-repeat="set in create.cardSets" ng-class="{'active': set == create.selectedSet}">
-                    <a class="selectable" ng-click="create.selectedSet = set" ng-bind-html="set.value"></a>
+                    <a class="selectable" style="color: black;" ng-click="create.selectedSet = set" ng-bind-html="set.value"></a>
                   </li>
                 </ul>
               </div>
