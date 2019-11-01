@@ -19,10 +19,10 @@ include __DIR__ . "/../config.php";
   <div class="container">
   <div class="portlet portlet-dark">
     <div class="portlet-body">
-    <div class="card-overview">
+    <div class="">
     <div ng-repeat="vote in master.votes track by vote.id">        
-      <div class="card-container" style="margin-bottom: 0">
-        <div class="deletable-card">
+      <div class="col-xs-6 col-md-4" style="margin-bottom: 1rem">
+        <div class="">
           <div class="card-flip" ng-class="{flipped: master.flipped}">
             <div class="card front" ng-class="{active: vote.active}">
               <div ng-if="vote.placed" class="inner"><span class="card-label">?</span></div>
