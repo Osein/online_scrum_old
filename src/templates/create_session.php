@@ -4,8 +4,6 @@ include "config.php";
 <!-- Introduction -->     
 <div class="row">
   <div class="container">
-    <h2 class="portlet-head-label">Create a session</h2>
-      
     <!-- Create session panel -->
     <div ng-controller="CreateController as create">
       <div class="portlet portlet-default">

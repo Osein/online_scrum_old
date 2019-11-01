@@ -4,7 +4,6 @@ include "config.php";
 <!-- Introduction -->     
 <div class="row">
   <div class="container">
-    <h2 class="portlet-head-label">Join a session</h2>
     <!-- Join session panel -->
     <div ng-controller="JoinController as join">
       <div class="portlet card-dark">
